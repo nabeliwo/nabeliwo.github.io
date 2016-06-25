@@ -1,0 +1,29 @@
+/*-------------------------------------//
+//  Settings
+//-------------------------------------*/
+
+/*  Base
+//-------------------------------------*/
+
+$base-background-color: #222;
+$base-font-color: #ced5e1;
+$base-font-size: 16px;
+
+
+/*  Accent
+//-------------------------------------*/
+
+$light-color: #3ba3e9;
+$dark-color: #2170c4;
+
+
+/*  Font
+//-------------------------------------*/
+
+$font-size-xl: calc($base-font-size + 6);
+$font-size-ll: calc($base-font-size + 4);
+$font-size-l: calc($base-font-size + 2);
+$font-size-m: $base-font-size;
+$font-size-s: calc($base-font-size - 2);
+$font-size-ss: calc($base-font-size - 4);
+$font-size-xs: calc($base-font-size - 6);
