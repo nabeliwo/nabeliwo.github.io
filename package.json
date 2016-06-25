@@ -1,0 +1,30 @@
+{
+  "name": "nabeliwo.github",
+  "version": "1.0.0",
+  "description": "ポートフォリオサイトです。 [http://nabeliwo.github.io](http://nabeliwo.github.io)",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabeliwo/nabeliwo.github.io.git"
+  },
+  "author": "nabeliwo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nabeliwo/nabeliwo.github.io/issues"
+  },
+  "homepage": "https://github.com/nabeliwo/nabeliwo.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "browser-sync": "^2.13.0",
+    "cssnano": "^3.7.1",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "postcss-import": "^8.1.2",
+    "postcss-nested": "^1.0.0",
+    "postcss-simple-vars": "^2.0.0"
+  }
+}
