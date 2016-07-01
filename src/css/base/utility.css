@@ -1,0 +1,13 @@
+/*-------------------------------------//
+//  Utility
+//-------------------------------------*/
+
+.u-fulimg {
+  width: 100%;
+  height: auto;
+}
+.u-textLink {
+  color: $light-color;
+
+  &:hover { color: $dark-color; }
+}
