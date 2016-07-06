@@ -30,7 +30,7 @@
           <div class="about__profile__thumb"><img class="about__profile__thumb__icon u-fulimg" src="/src/img/nbsn.jpg" width="100%" height="auto" alt=""></div>
           <div class="about__profile__code inconsolata">
             <pre><code>var nabeliwo = {
-  name: 'Hroki Watanabe',
+  name: 'Hiroki Watanabe',
   dateOfBirth: new Date('1990/08/03'),
   bloodType: 'A',
   location: {
@@ -100,10 +100,131 @@
 
   <div class="section">
     <p class="title play"># skills</p>
+
+    <div class="skills">
+      <ul class="skills__list js-skills">
+        <li class="is-80per">
+          <ul class="skills__meter">
+            <li></li><li></li><li></li><li></li><li></li>
+          </ul>
+          <div class="skills__knob"></div>
+          <p class="skills__name play">HTML</p>
+        </li>
+
+        <li class="is-80per">
+          <ul class="skills__meter">
+            <li></li><li></li><li></li><li></li><li></li>
+          </ul>
+          <div class="skills__knob"></div>
+          <p class="skills__name play">CSS</p>
+        </li>
+
+        <li class="is-60per">
+          <ul class="skills__meter">
+            <li></li><li></li><li></li><li></li><li></li>
+          </ul>
+          <div class="skills__knob"></div>
+          <p class="skills__name play">JavaScript</p>
+        </li>
+
+        <li class="is-40per">
+          <ul class="skills__meter">
+            <li></li><li></li><li></li><li></li><li></li>
+          </ul>
+          <div class="skills__knob"></div>
+          <p class="skills__name play">PHP</p>
+        </li>
+      </ul>
+    </div>
   </div>
 
   <div class="section">
     <p class="title play"># works</p>
+
+    <div class="works">
+      <div class="works__inner">
+        <div class="works__box">
+          <ul class="works__contents" style="width: 3270px;">
+            <li>
+              <p class="works__date play">現在 ~ 2016/06</p>
+              <p class="works__title">スクール事業進捗管理システム開発</p>
+
+              <ul class="works__info">
+                <li>【メンバー / ポジション】<br>5人 / エンジニア（フロント・バック）</li>
+                <li>【開発環境】<br>Node, express, MySQL, webpack, React, Redux, Git</li>
+                <li>
+                  【内容】<br>
+                  自社で行っていた外部向けのITスクール事業で使う、生徒の課題の進捗を管理するシステムの作成。<br>
+                  バック・フロント両方を担当。同一アプリケーション内で、ユーザー側の画面はSPA、管理側の画面は通常のページという構成。<br>
+                  ユーザー認証はjsonWebTokenを使用。初めて実務でES2015を使用した。
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <p class="works__date play">2016/05 ~ 2016/04</p>
+              <p class="works__title">受託web制作</p>
+
+              <ul class="works__info">
+                <li>【メンバー / ポジション】<br>2人 / エンジニア（フロント）</li>
+                <li>【開発環境】<br>gulp, Grunt, Git</li>
+                <li>
+                  【内容】<br>
+                  WordPressのテーマ、コーポレートサイト、LPなどの作成。<br>
+                  主に2週間程度の納期のものをひたすら数こなしていた。
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <p class="works__date play">2016/03 ~ 2015/10</p>
+              <p class="works__title">スマホ広告収集・データ分析システム開発</p>
+
+              <ul class="works__info">
+                <li>【メンバー / ポジション】<br>9人 / エンジニア（フロント）</li>
+                <li>【開発環境】<br>PHP, FuelPHP, MySQL, RequireJS, bower, Jenkins, Git</li>
+                <li>
+                  【内容】<br>
+                  クローラーで収集したデータを元に、スマホ広告のトレンドの分析をしたり自社の広告の効果を分析するシステムのリニューアル。<br>
+                  既に開発されていたサービスのリニューアルに合わせて、クライアント側のSPA化・サーバー側のREST API化・JSの全体的なリファクタリングを担当。<br>
+                  プロジェクトの都合でJSのFWが使えなかった(謎)ため、自分で簡易的なSPAのFWの土台的なものを実装して運用した。
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <p class="works__date play">2015/09 ~ 2015/07</p>
+              <p class="works__title">社内用ナレッジ共有システム開発</p>
+
+              <ul class="works__info">
+                <li>【メンバー / ポジション】<br>3人 / エンジニア（フロント）</li>
+                <li>【開発環境】<br>PHP, Laravel, MySQL, Redis, Elasticsearch, Git</li>
+                <li>
+                  【内容】<br>
+                  ナレッジと週報を書く用の社内システムのクライアント側の実装。UIはQiitaを参考にデザイン。<br>
+                  Larabelで実装されたサーバーサイドの修正も少々。
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <p class="works__date play">2015/06 ~ 2014/02</p>
+              <p class="works__title">受託web制作</p>
+
+              <ul class="works__info">
+                <li>【メンバー / ポジション】<br>10人 / エンジニア（フロント・バック）</li>
+                <li>【開発環境】<br>gulp, Grunt, Git</li>
+                <li>
+                  【内容】<br>
+                  WordPressのテーマ、コーポレートサイト、LP、Webアプリケーションなどの作成。主に1ヶ月程度の納期のものをひたすら数こなしていた。<br>
+                  一番楽しかったものは、化粧品会社のスペシャルコンテンツで、顔写真を顔認証APIにかけて顔のタイプを分けてそれをCreateJSを使ってcanvasに描画してタイプに応じたデコレーションをつけることができるWebアプリを2ヶ月ほどかけて作ったとき。
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="section">

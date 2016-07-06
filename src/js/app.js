@@ -1,9 +1,28 @@
 $(() => {
   // fullpage
+  const $skills = $('.js-skills');
+  const $skillMeter = $skills.find('ul');
   const execFullpageJs = (() => {
     const $fullpage = $('#fullpage');
     $fullpage.fullpage({
-      anchors: ['', 'about', 'skills', 'works', 'products', 'links']
+      anchors: ['', 'about', 'skills', 'works', 'products', 'links'],
+      afterLoad: (anchorLink, index) => {
+        if (anchorLink === 'skills') {
+          $skills.addClass('is-active');
+
+          setTimeout(() => {
+            $skillMeter.each(function() {
+              const $this = $(this);
+
+              $this.find('li').each(function(i) {
+                setTimeout(() => {
+                  $(this).addClass('is-active');
+                }, (1000 - i * 200));
+              })
+            });
+          }, 900);
+        }
+      }
     });
     $fullpage.css('opacity', 1);
   })();
