@@ -98,6 +98,72 @@
   text-align: center;
 }
 
+.index {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.index__list {
+  padding: 0 50px;
+
+  & > li:not(:first-child) { margin-top: 10px; }
+}
+.index__link {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  align-items: center;
+
+  .index__num {
+    width: 50px;
+    background-color: $light-color;
+    color: #fff;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .index__body {
+    width: 100%;
+    padding-left: 20px;
+  }
+  .index__body__title {
+    margin-bottom: 10px;
+    color: $light-color;
+    font-size: 36px;
+  }
+
+  &:hover {
+    background-color: $light-color;
+
+    .index__body__title { color: #fff; }
+  }
+}
+
+/*
+.contents__list {
+  display: inline-block;
+  padding: 50px;
+  writing-mode: vertical-rl;
+
+  & > li:not(:first-child) { margin-right: 40px; }
+}
+.contents__link {
+  display: inline-block;
+  margin-left: 20px;
+  color: $light-color;
+  font-size: 36px;
+  transition: color .3s;
+
+  &:hover { color: $dark-color; }
+}
+.contents__txt {
+  padding-top: 10px;
+  font-size: $font-size-ll;
+}*/
+
 .about {
   display: flex;
   justify-content: center;
@@ -226,6 +292,7 @@
   }
 }
 .is-active {
+  .is-100per .skills__knob:before { transform: rotate(180deg); }
   .is-80per .skills__knob:before { transform: rotate(144deg); }
   .is-60per .skills__knob:before { transform: rotate(108deg); }
   .is-40per .skills__knob:before { transform: rotate(72deg); }
@@ -255,9 +322,9 @@
   box-shadow: inset 0 0 10px rgba(0, 0, 0, .7);
 }
 .works__contents {
-  width: 1000px;
+  width: 3290px;
   height: 100%;
-  padding-left: 20px;
+  padding: 0 20px;
   font-size: 0;
 
   & > li {

@@ -5,7 +5,7 @@ $(() => {
   const execFullpageJs = (() => {
     const $fullpage = $('#fullpage');
     $fullpage.fullpage({
-      anchors: ['', 'about', 'skills', 'works', 'products', 'links'],
+      anchors: ['', 'index', 'about', 'skills', 'works', 'products', 'links'],
       afterLoad: (anchorLink, index) => {
         if (anchorLink === 'skills') {
           $skills.addClass('is-active');
