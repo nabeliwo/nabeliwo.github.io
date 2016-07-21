@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no, email=no, address=no">
+  <title>TodoApp</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Play">
+  <link rel="stylesheet" href="dist/bundle.css">
+</head>
+<body>
+
+<header class="header">
+  <h1 class="header__title u-play">TodoApp</h1>
+</header>
+
+<div class="container">
+  <div class="side">
+    <ul class="c-filter u-play js-filter"></ul>
+  </div>
+
+  <div class="main">
+    <div class="main__top">
+      <div class="main__top__cell is-left">
+        <ul class="c-operation js-operation"></ul>
+      </div>
+
+      <div class="main__top__cell is-right">
+        <p class="c-length u-play js-length"></p>
+      </div>
+    </div>
+
+    <div class="c-todo">
+      <form class="c-todo__form js-todo-form">
+        <input name="todo" type="text" class="c-input c-input--middle" placeholder="input Todo..." autocomplete="off" required>
+      </form>
+
+      <ul class="c-todo__list js-todo-list"></ul>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <p class="footer__copy u-play">&copy; 2016 nabeliwo.</p>
+</footer>
+
+<script src="dist/bundle.js"></script>
+</body>
+</html>
