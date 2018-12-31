@@ -1,5 +1,5 @@
 # nabeliwo.github.io
 
-ポートフォリオサイトです。
+Profile of nabeliwo who is a Japanese creator.
 
 [https://nabeliwo.github.io](https://nabeliwo.github.io)
